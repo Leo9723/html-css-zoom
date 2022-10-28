@@ -66,3 +66,34 @@ img {
 }
 
 /* footer */
+
+footer .row {
+    height: 80px;
+    background-color: black;
+    display: flex;
+}
+.col-33 {
+    width: calc(100% / 3);
+    height: 100%;
+    background-color: rgb(57, 117, 169);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.button-zone {
+    width: calc(100% / 8);
+}
+
+.icon {
+    font-size: xx-large;
+}
+
+.fa-angle-up {
+    font-size: x-small;
+    margin-left: 10px;
+}
+
+span {
+    font-size: x-small;
+}
